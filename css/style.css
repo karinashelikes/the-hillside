@@ -689,18 +689,18 @@ img.mark {
 	/* 「cafe」を疑似要素で設置 */
 	content: '';
 	/* 背景画像を設置 */
-	background-image: url("../images/card-title1.png");
+	background-image: url("../images/icon-healing-plant.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	/* 横幅140px */
-	width: 140px;
+	width: 210px;
 	/* 高さ28px */
-	height: 28px;
+	height: 80px;
 	/* 配置したい要素にpositionプロパティを設定 */
 	position: absolute;
 	/* 上から-38px */
-	top: -38px;
+	top: -80px;
 	/* 左から50% */
 	left: 50%;
 	/* 画像の横幅の50%分だけ左に戻す */
@@ -718,18 +718,18 @@ img.mark {
 	/* 「cafe」を疑似要素で設置 */
 	content: '';
 	/* 背景画像を設置 */
-	background-image: url("../images/card-title2.png");
+	background-image: url("../images/icon-village-cafe.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	/* 横幅210px */
 	width: 210px;
 	/* 高さ28px */
-	height: 28px;
+	height: 80px;
 	/* 配置したい要素にpositionプロパティを設定 */
 	position: absolute;
 	/* 上から-38px */
-	top: -38px;
+	top: -80px;
 	/* 左から50% */
 	left: 50%;
 	/* 画像の横幅の50%分だけ左に戻す */
