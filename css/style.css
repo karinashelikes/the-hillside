@@ -400,8 +400,8 @@ ul.gnav-sp li a {
 	/* 配置したい要素にposition:absolute;を指定 */
 	position: absolute;
 	/* 縦から20%,右から10%の位置に配置 */
-	top: 20%;
-	right: 10%;
+	top: 13%;
+	right: 5%;
 }
 
 .maincopy {
@@ -503,10 +503,26 @@ transform:translateX(0);
 }
 
 .right-img2 {
+	margin-top: 43px;
 	/* 画像の横幅を指定 */
-	width: 450px;
+	width: 460px;
 	/* 右寄せに配置する */
-	margin: 0 0 0 auto;
+}
+
+#about{
+	position: relative;
+	padding: 80px 0;
+}
+
+#about::after{
+content: "";
+position: absolute;
+right: 0;
+top: 0;
+width: 70%;
+height: 93%;
+background: #f3efe7;
+z-index: -1;
 }
 
 /** -------- スマホ -------- **/
