@@ -10,6 +10,7 @@ body {
 img {
 	/* 最大幅を100%に指定 */
 	max-width: 100%;
+	height: auto;
 }
 
 a {
@@ -441,7 +442,7 @@ ul.gnav-sp li a {
 		/* sp用のヘッダー高さに合わせてheightを調整 */
 		height: calc(100vh - 60px);
 		/* sp用の背景画像に変更 */
-		background-image: url("../images/mv_sp.jpg");
+		background-image: url("../images/sustainable_garden.png");
 		/* ヘッダー分、上に余白を設定する */
 		margin-top: 60px;
 	}
