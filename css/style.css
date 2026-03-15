@@ -91,6 +91,7 @@ ul {
 
 	.col-2 .item {
 		/* sp時の要素は横幅いっぱいになるように */
+		max-width: 100%;
 		width: 100%;
 	}
 
@@ -102,6 +103,16 @@ ul {
 	.sp-only {
 		/* pc時に表示 */
 		display: block; 
+	}
+
+		img{
+	max-width:100%;
+	height:auto;
+	display:block;
+	}
+
+	.logo img{
+	width:150px;
 	}
 
 }
@@ -254,7 +265,7 @@ ul.gnave-pc li a:hover {
 
 	#header h1 {
 		/* sp時ロゴの大きさを横幅180pxに */
-		width: 180px;
+		max-width: 180px;
 		/* 左余白24px */
 		margin-left: 24px;
 	}
@@ -850,6 +861,22 @@ p.small.name {
 .slick-slide {
 	/* slickの画像と画像の間に余白を空ける */
 	margin: 0 5px;
+}
+
+#story{
+	position: relative;
+	padding: 80px 0;
+}
+
+#story::after{
+content: "";
+position: absolute;
+right: 0;
+top: 0;
+width: 70%;
+height: 100%;
+background: #f3efe7;
+z-index: -1;
 }
 
 /** -------- スマホ -------- **/
