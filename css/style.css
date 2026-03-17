@@ -122,6 +122,11 @@ ul {
 	display:block;
 	}
 
+	.logo{
+		background: #f3f1ec;
+		padding: 10px 15px;
+	}
+
 	.logo img{
 	width:120px;
 	height: auto;
