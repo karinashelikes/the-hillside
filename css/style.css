@@ -92,13 +92,13 @@ ul {
 
 	.col-2 .item {
 		/* sp時の要素は横幅いっぱいになるように */
-		width: 100%;
+		width: 100%; !important;
 	}
 
 	.col-2 img{
 		width: 100%;
-		height: 300px;
-		object-fit: cover;
+		height: auto;
+		display: block;
 	}
 
 	}
